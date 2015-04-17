@@ -13,3 +13,4 @@ sudo apt-get install -y nginx=1.6.3-1+trusty0
 echo "daemon off;" >> /etc/nginx/nginx.conf
 rm /etc/nginx/sites-enabled/default
 cp /opt/modulus/conf/nginx-default /etc/nginx/sites-enabled/default
+mkdir /var/lib/nginx/body
