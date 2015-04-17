@@ -1,7 +1,7 @@
 server {
     listen 8080 default_server;
 
-    root /mnt/app
+    root /mnt/app;
     index index.html;
 
     location / {
