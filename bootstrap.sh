@@ -21,6 +21,6 @@ mkdir /var/lib/nginx/uwsgi
 mkdir /var/lib/nginx/scgi
 mkdir -p /var/log/nginx
 touch /var/log/nginx/access.log
-touch /var/log/ngnix/error.log
+touch /var/log/nginx/error.log
 chown mop:mop /var/log/nginx/access.log
 chown mop:mop /var/log/nginx/error.log
