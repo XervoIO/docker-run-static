@@ -14,13 +14,3 @@ rm /etc/nginx/nginx.conf
 cp /opt/modulus/conf/nginx.conf /etc/nginx/nginx.conf
 rm /etc/nginx/sites-enabled/default
 cp /opt/modulus/conf/nginx-default /etc/nginx/sites-enabled/default
-mkdir /var/lib/nginx/body
-mkdir /var/lib/nginx/proxy
-mkdir /var/lib/nginx/fastcgi
-mkdir /var/lib/nginx/uwsgi
-mkdir /var/lib/nginx/scgi
-mkdir -p /var/log/nginx
-touch /var/log/nginx/access.log
-touch /var/log/nginx/error.log
-chown mop:mop /var/log/nginx/access.log
-chown mop:mop /var/log/nginx/error.log
