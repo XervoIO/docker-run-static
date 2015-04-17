@@ -19,6 +19,7 @@ mkdir /var/lib/nginx/proxy
 mkdir /var/lib/nginx/fastcgi
 mkdir /var/lib/nginx/uwsgi
 mkdir /var/lib/nginx/scgi
+mkdir -p /var/log/nginx
 touch /var/log/nginx/access.log
 touch /var/log/ngnix/error.log
 chown mop:mop /var/log/nginx/access.log
