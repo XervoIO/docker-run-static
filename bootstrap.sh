@@ -20,7 +20,6 @@ mkdir /var/lib/nginx/fastcgi
 mkdir /var/lib/nginx/uwsgi
 mkdir /var/lib/nginx/scgi
 mkdir -p /var/log/nginx
-mkdir -p /mnt/log/nginx
 touch /var/log/nginx/access.log
 touch /var/log/nginx/error.log
 chown mop:mop /var/log/nginx/access.log
