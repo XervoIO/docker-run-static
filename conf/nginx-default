@@ -1,11 +1,10 @@
 server {
-    listen 8080 default_server;
+  listen 8080 default_server;
 
-    root /mnt/app;
-    index index.html;
+  root /mnt/app;
+  index index.html;
 
-    location / {
-      try_files $uri $uri/ =404;
-    }
-
+  location / {
+    try_files $uri $uri/ =404;
+  }
 }
